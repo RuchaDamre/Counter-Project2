@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(212, 247, 235);
+}
+h2 {
+    text-align: center;
+    padding: 120px 0 0;
+    font-size: 60px;
+    font-family:  'monospace' ;
+}
+h3 {
+    text-align: center;
+    font-size: 60px;
+}
+.btn {
+    text-align: center;
+}
+#increase {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin : 5px;
+    background-color: rgb(212, 247, 235);
+    cursor: pointer;
+}
+#increase:hover {
+    color: white;
+    background-color: black;
+}
+#decrease {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin : 5px;
+    background-color: rgb(212, 247, 235);
+    cursor: pointer;
+}
+#decrease:hover {
+    color: white;
+    background-color: black;
+}
+#reset {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin : 5px;
+    background-color: rgb(212, 247, 235);
+    cursor: pointer;
+}
+#reset:hover {
+    color: white;
+    background-color: black;
+}
+@media screen and (max-width: 500px) {
+    h2 {
+        padding: 100px 0 0;
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    #increase{
+        font-size: 15px;
+    }
+    #decrease{
+        font-size: 15px;
+    }
+    #reset{
+        font-size: 15px;
+    }
+  }
